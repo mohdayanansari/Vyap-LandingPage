@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vyap</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./slider.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="header-container">
+      <div class="header-child-1">
+        <img src="./assets/logo.png" alt="" />
+      </div>
+      <div class="header-child-2">
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">For Suppliers</a></li>
+        </ul>
+        <a href="#"><img src="./assets/whatsapp-icon.svg" alt="" /></a>
+      </div>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Hero Starts -->
+    <div class="hero-container">
+      <div class="hero-child-1">
+        <div class="hero-left-container">
+          <h1>
+            CONNECTING <span class="shops"></span> WITH NEARBY
+            <span class="suppliers">SUPPLIERS</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit,
+            nullam sed euismod augue commodo lorem nec consequat.Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Velit, nullam sed
+            euismod augue commodo lorem nec consequat.
+          </p>
+          <button>Download App</button>
+        </div>
+      </div>
+      <!-- slider -->
+      <div class="hero-child-2">
+        <div class="hero-slider">
+          <figure class="icon-cards mt-3">
+            <div class="icon-cards__content">
+              <div
+                class="
+                  icon-cards__item
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <img
+                  class="mobile-img"
+                  src="./assets/Mobile-Straight.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="
+                  icon-cards__item
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <img
+                  class="mobile-img"
+                  src="./assets/Mobile-Straight.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="
+                  icon-cards__item
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <img
+                  class="mobile-img"
+                  src="./assets/Mobile-Straight.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Features Section -->
+    <div class="features-container">
+      <h1>FEATURES</h1>
+      <h3>
+        An Inventory ordering app which helps kirana stores to order inventories
+        from local neighbourhood suppliers.
+      </h3>
+      <h3>
+        Vyap works as a local inventory network connecting kiranas to local
+        suppliers directly.
+      </h3>
+    </div>
+
+    <!-- Js -->
+    <script src="./app.js"></script>
+    <script src="./text.js"></script>
+    <script>
+      window.ityped.init(document.querySelector(".shops"), {
+        strings: ["SHOPS"],
+      });
+    </script>
+  </body>
+</html>
