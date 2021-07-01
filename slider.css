@@ -1,6 +1,7 @@
 .icon-cards {
   position: relative;
-  /* left: 200px; */
+  top: 30px;
+  right: 80px;
   width: 200px;
   height: 400px;
   max-width: 200px;
@@ -23,8 +24,7 @@
   transform-style: preserve-3d;
   -webkit-transform: translateZ(-30vw) rotateY(0);
   transform: translateZ(-30vw) rotateY(0);
-  -webkit-animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1)
-    forwards;
+  -webkit-animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
   animation: carousel 10s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
 }
 
@@ -45,7 +45,7 @@
   max-height: 250px; */
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
+  border-radius: 50px;
   -webkit-transform-origin: center;
   transform-origin: center;
 }
@@ -113,3 +113,4 @@
     transform: translateZ(-35vw) rotateY(-360deg);
   }
 }
+/*# sourceMappingURL=slider.css.map */

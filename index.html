@@ -10,17 +10,21 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <div class="header-main">
+    <div id="home" class="header-main">
       <div class="header-container">
         <div class="header-child-1">
           <img src="./assets/logo.png" alt="" />
         </div>
         <div class="header-child-2">
           <nav class="nav">
-            <button class="btn-nav">FEATURES</button>
-            <button class="btn-nav">SOMETHING</button>
+            <a href="#features">
+              <button class="btn-nav">FEATURES</button>
+            </a>
+            <a href="#kirana">
+              <button class="btn-nav">SOMETHING</button>
+            </a>
             <button class="btn-nav">FOR SUPPLIERS</button>
-            <a href="#"
+            <a href="#home"
               ><img class="home-icon" src="./assets/Home-icon.svg" alt=""
             /></a>
             <a href="#"
@@ -40,7 +44,7 @@
         <div class="hero-child-1">
           <div class="hero-left-container">
             <h1>
-              CONNECTING <span class="shops"></span> WITH NEARBY
+              CONNECTING <span class="shops"></span> WITH<br />NEARBY
               <span class="suppliers">SUPPLIERS</span>
             </h1>
             <p>
@@ -101,21 +105,64 @@
     <!-- Hero End -->
 
     <!-- Features Section -->
-    <div class="features-container">
-      <h1>FEATURES</h1>
-      <div class="features-child-1">
-        <h3>
-          ⨀ An <strong>Inventory ordering app</strong> which helps
-          <strong>kirana stores</strong> to
-          <strong>order inventories</strong> from
-          <strong>local neighbourhood suppliers</strong>.
-        </h3>
-        <h3>
-          ⨀ Vyap works as a <strong>local inventory network</strong> connecting
-          kiranas to local suppliers directly.
-        </h3>
+    <div class="features-main">
+      <div class="features-container">
+        <h1 id="features">FEATURES</h1>
+        <div class="features-child-1">
+          <h3>
+            An <strong>Inventory ordering app</strong> which helps
+            <strong>kirana stores</strong> to
+            <strong>order inventories</strong> from
+            <strong>local neighbourhood suppliers</strong>.
+          </h3>
+          <h3>
+            Vyap works as a <strong>local inventory network</strong> connecting
+            kiranas to local suppliers directly.
+          </h3>
+        </div>
       </div>
     </div>
+
+    <!-- App's Let Kirana's Section -->
+    <div id="kirana" class="kirana-main">
+      <div class="kirana-container">
+        <h1>App's Let Kirana's</h1>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer-main">
+      <div class="footer-container">
+        <div class="footer-child-1">
+          <img src="./assets/logo.png" alt="" />
+          <h1>
+            CONNECTING <span class="shops">SHOPS</span> WITH<br />NEARBY
+            <span class="suppliers">SUPPLIERS</span>
+          </h1>
+        </div>
+
+        <div class="footer-child-2">
+          <h3>FOLLOW US</h3>
+          <div class="social-icon">
+            <a class="icons-s" href="#">
+              <img src="./assets/twitter.svg" alt="" class="icons-footer" />
+            </a>
+            <a class="icons-s" href="#">
+              <img src="./assets/fb.svg" alt="" class="icons-footer" />
+            </a>
+            <a class="icons-s" href="#">
+              <img src="./assets/insta.svg" alt="" class="icons-footer" />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-child-3">
+          <h3>CONTACT US</h3>
+          <a href="#">contact@vyap.com</a>
+          <a href="#">+91 8546 456 546</a>
+        </div>
+      </div>
+    </footer>
 
     <!-- Js -->
     <script src="./app.js"></script>
